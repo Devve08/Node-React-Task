@@ -1,0 +1,69 @@
+.overlay{
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-container{
+    background-color: white;
+    width: 30%;
+    height: 200px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.modal-container h2{
+    color: tomato;
+}
+
+.modal-btns-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+}
+
+.yes-btn{
+    padding: 8px 25px;
+    cursor: pointer;
+    background-color: tomato;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.no-btn{
+    padding: 8px 25px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(218, 218, 218);
+}
+
+
+@media screen and (max-width: 800px){
+
+    .modal-container{
+        background-color: white;
+        width: 80%;
+        height: 200px;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        padding: 10px;
+    }
+}
